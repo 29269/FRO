@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
+body{
+font-family: 'El Messiri', sans-serif;
+margin-left: 0 auto;
+
+
+}
+#validatie img {
+    height: 2em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
+.rand{
+  /* width:1250px; */
+        margin: 10px auto;
+        border-style: solid;
+        border-color: #E0218A;
+        /* color: #041189; */
+        padding: 1em;
+}
+.ruimte{
+  margin-left: 2em
+}
