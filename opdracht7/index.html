@@ -16,9 +16,9 @@
 <div class="rand">
   <form action="http://bla.hosts.ma-cloud.nl/pop.php" method="get">
   Voornaam:
-<input type="text" name ="Voornaam">
+<input type="text" name ="Voornaam" required>
    Achternaam:
-<input type="text" name ="Achternaam">
+<input type="text" name ="Achternaam" required>
 Klas:
 <select name ="Klas">
   <option value="">selecter je klas</option>
@@ -28,14 +28,16 @@ Klas:
   <option value="MG1D">MD1D</option>
 
 </select>
+
 <div class="rand">
-  <p>Hoe positief ben je op dit moment over je opleiding?</p>
+<p>Hoe positief ben je op dit moment over je opleiding?</p>
 <label><input type="radio" name="positief" value="0"> 0 :(</label>
 <label><input class="ruimte" type="radio" name="positief" value="2"> 2 </label>
 <label><input class="ruimte" type="radio" name="positief" value="tussen 3 en 4"> 4 </label>
 <label><input  class="ruimte" type="radio" name="positief" value="tussen 5 en 8"> 8 </label>
 <label><input  class="ruimte" type="radio" name="positief" value="tussen 9 en 10"> 10 :)</label>
 </div>
+
 <div class="rand">
   <p>Hoe gemotiveerd ben je momenteel om de opleiding af te maken?</p>
   <label><input  type="radio" name="opleiding af te maken " value="0"> 0 :(</label>
