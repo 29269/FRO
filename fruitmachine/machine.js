@@ -7,6 +7,7 @@ let fruitTwee = document.getElementById('fruit2');
 let fruitDrie = document.getElementById('fruit3');
 let knop = document.getElementById('klikme');
 let win = document.getElementById('winner');
+win.innerHTML= "speel me!!!";
 
 let num1 = Math.floor(Math.random()*9);
 let num2 = Math.floor(Math.random()*9);
@@ -22,12 +23,15 @@ fruitDrie.innerHTML = fruiten[num3];
 // document.getElementById("winner").innerHTML = win;
 
 knop.addEventListener("click", function() {
-  let num1 = Math.floor(Math.random()*9);
-  let num2 = Math.floor(Math.random()*9);
-  let num3 = Math.floor(Math.random()*9);
-  if (num1 == num2 == num3){
-  win = "Toper";
-  document.getElementById("winner").innerHTML = win;
+  let num1 = Math.floor(Math.random()*3);
+  let num2 = Math.floor(Math.random()*3);
+  let num3 = Math.floor(Math.random()*3);
+  if (num1 == num2 && num1 == num3){
+  // win = "Topper";
+win.innerHTML ="Topper";
+}
+else {
+  win.innerHTML= "speel me!!!";
 }
   fruitEen.innerHTML = fruiten[num1];
   fruitTwee.innerHTML = fruiten[num2];
